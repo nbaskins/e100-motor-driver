@@ -7,12 +7,15 @@
 #define pin_sig1 0
 #define pin_sig2 1
 
-const uint16_t pwm_threshold = 200;
+const uint16_t pwm_threshold = 200; // threshold for pwm duty cycles
+const uint32_t wd_timeout = 20000; // set max pwm input period to 20000 us
 
 volatile uint32_t pwm1_start = 0;
 volatile uint32_t pwm1_value = 0;
 volatile uint32_t pwm2_start = 0;
 volatile uint32_t pwm2_value = 0;
+volatile uint32_t pwm1_prev = 0;
+volatile uint32_t pwm2_prev = 0;
 
 // sets debug led
 void set_led (uint16_t led_pin, uint8_t state) {
@@ -29,22 +32,33 @@ void drive_motor (uint16_t duty_cycle, uint16_t pin1, uint16_t pin2, uint16_t le
   set_led(led_pin, pin1_en || pin2_en);
 }
 
-// ISR callback, updates duty cycles
+// signal pins callback, updates duty cycles
 ISR (PCINT0_vect) {
-  uint32_t current_time = micros();
-  uint8_t pin_state = PINA;
+  static uint8_t last_state = 0; // tracks the previous pin state
+  uint8_t pin_state = PINA; // current pin state
+  uint32_t current_time = micros(); // current time in us
+  uint8_t changed = pin_state ^ last_state; // masks for any changed pins
+  last_state = pin_state; // updates last state for next interrupt
 
   // check sig1
-  if (pin_state & (1 << PINA0))
-    pwm1_start = current_time;
-  else
-    pwm1_value = current_time - pwm1_start;
+  if (changed & (1 << PINA0)) {
+    if (pin_state & (1 << PINA0)) {
+      pwm1_start = current_time;
+    } else {
+      pwm1_value = current_time - pwm1_start;
+      pwm1_prev = current_time;
+    }
+  }
 
   // check sig2
-  if (pin_state & (1 << PINA1))
-    pwm2_start = current_time;
-  else
-    pwm2_value = current_time - pwm2_start;
+  if (changed & (1 << PINA1)) {
+    if (pin_state & (1 << PINA1)) {
+      pwm2_start = current_time;
+    } else {
+      pwm2_value = current_time - pwm2_start;
+      pwm2_prev = current_time;
+    }
+  }
 }
 
 // initialize pins
@@ -66,12 +80,23 @@ void setup() {
 }
 
 void loop() {
+  uint32_t current_time = micros(); // current time in us
+  
   noInterrupts(); // disable interrupts
-  uint16_t local_pwm1 = pwm1_value;
-  uint16_t local_pwm2 = pwm2_value;
+  uint16_t snap_pwm1 = pwm1_value;
+  uint16_t snap_pwm2 = pwm2_value;
+
+  uint32_t snap_pwm1_prev = pwm1_prev;
+  uint32_t snap_pwm2_prev = pwm2_prev;
   interrupts(); // enable interrupts
 
+  if (current_time - snap_pwm1_prev > wd_timeout)
+    snap_pwm1 = 1500;
+
+  if (current_time - snap_pwm2_prev > wd_timeout)
+    snap_pwm2 = 1500;
+
   // drive motors
-  drive_motor(local_pwm1, pin_ma0, pin_ma1, pin_dbg1);
-  drive_motor(local_pwm2, pin_mb0, pin_mb1, pin_dbg2);
+  drive_motor(snap_pwm1, pin_ma0, pin_ma1, pin_dbg1);
+  drive_motor(snap_pwm2, pin_mb0, pin_mb1, pin_dbg2);
 }

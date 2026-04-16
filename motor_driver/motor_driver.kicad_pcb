@@ -45,15 +45,15 @@
 			(usegerberattributes yes)
 			(usegerberadvancedattributes yes)
 			(creategerberjobfile yes)
-			(dashed_line_dash_ratio 12.000000)
-			(dashed_line_gap_ratio 3.000000)
+			(dashed_line_dash_ratio 12)
+			(dashed_line_gap_ratio 3)
 			(svgprecision 4)
 			(plotframeref no)
 			(mode 1)
 			(useauxorigin no)
 			(hpglpennumber 1)
 			(hpglpenspeed 20)
-			(hpglpendiameter 15.000000)
+			(hpglpendiameter 15)
 			(pdf_front_fp_property_popups yes)
 			(pdf_back_fp_property_popups yes)
 			(pdf_metadata yes)
@@ -160,7 +160,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/5f053954-fd30-4d48-bd5c-c77b1eedda2b")
 		(sheetname "/")
-		(sheetfile "MotorController.kicad_sch")
+		(sheetfile "motor_driver.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.727064 -0.91)
@@ -364,7 +364,7 @@
 		)
 		(path "/f2d02b8c-c0ef-43bd-aeba-210a9b430a56")
 		(sheetname "/")
-		(sheetfile "MotorController.kicad_sch")
+		(sheetfile "motor_driver.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.75 -3.25)
@@ -559,7 +559,7 @@
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz -90 -0 -0)
+				(xyz -90 0 0)
 			)
 		)
 	)
@@ -619,7 +619,7 @@
 		(property ki_fp_filters "A14-LC-TT_ASM")
 		(path "/f0f5e509-8952-4c92-bcf7-137d65aeedda")
 		(sheetname "/")
-		(sheetfile "MotorController.kicad_sch")
+		(sheetfile "motor_driver.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.397 9.017)
@@ -964,7 +964,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/f8ed3866-43b9-4a66-a4f8-29840b122625")
 		(sheetname "/")
-		(sheetfile "MotorController.kicad_sch")
+		(sheetfile "motor_driver.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.711252 0.91)
@@ -1105,7 +1105,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/5182d599-805a-4282-b485-2248f593222a")
 		(sheetname "/")
-		(sheetfile "MotorController.kicad_sch")
+		(sheetfile "motor_driver.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.727064 0.91)
@@ -1246,7 +1246,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/d2e11e00-97dd-4b44-aa79-32ce04e18ac5")
 		(sheetname "/")
-		(sheetfile "MotorController.kicad_sch")
+		(sheetfile "motor_driver.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.711252 0.91)
@@ -1387,7 +1387,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/f65ec427-cfb0-426e-8d11-2fded5e5c1ed")
 		(sheetname "/")
-		(sheetfile "MotorController.kicad_sch")
+		(sheetfile "motor_driver.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.727064 0.91)
@@ -1528,7 +1528,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/07f443d6-987f-4f78-8f80-8a2ea33fdcbe")
 		(sheetname "/")
-		(sheetfile "MotorController.kicad_sch")
+		(sheetfile "motor_driver.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.711252 0.91)
@@ -1669,7 +1669,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/638f9bbc-dbcd-4885-a4ea-bc0e454ed555")
 		(sheetname "/")
-		(sheetfile "MotorController.kicad_sch")
+		(sheetfile "motor_driver.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 1.38 1.27)
@@ -1894,7 +1894,7 @@
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/833c530e-8c83-424b-8916-3d3d03395a0b")
 		(sheetname "/")
-		(sheetfile "MotorController.kicad_sch")
+		(sheetfile "motor_driver.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.38 6.46)
@@ -2182,7 +2182,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/e281c6ee-1328-42ab-9c32-6efaf9b340c4")
 		(sheetname "/")
-		(sheetfile "MotorController.kicad_sch")
+		(sheetfile "motor_driver.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.727064 0.91)
@@ -2324,7 +2324,7 @@
 		(property ki_fp_filters "PW16_TEX PW16_TEX-M PW16_TEX-L")
 		(path "/93e667a7-f115-4571-a5db-ebf3ec23454c")
 		(sheetname "/")
-		(sheetfile "MotorController.kicad_sch")
+		(sheetfile "motor_driver.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.941024 2.6797)
@@ -3429,7 +3429,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/40a457f5-f56c-40a2-9659-d908eeebe744")
 		(sheetname "/")
-		(sheetfile "MotorController.kicad_sch")
+		(sheetfile "motor_driver.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.727064 -0.91)
@@ -3572,7 +3572,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/3b899a4c-38a2-48ed-8296-287d37798d9a")
 		(sheetname "/")
-		(sheetfile "MotorController.kicad_sch")
+		(sheetfile "motor_driver.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.38 -1.38)
@@ -3807,7 +3807,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/9da37c41-faf5-4397-b66d-4fb481d4fa29")
 		(sheetname "/")
-		(sheetfile "MotorController.kicad_sch")
+		(sheetfile "motor_driver.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.711252 0.91)
@@ -3948,7 +3948,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/e5a22057-8a90-4530-a402-309f6a0bfc13")
 		(sheetname "/")
-		(sheetfile "MotorController.kicad_sch")
+		(sheetfile "motor_driver.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.711252 0.91)
@@ -4089,7 +4089,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/75c2d722-6f5c-4e51-813f-c204540b2748")
 		(sheetname "/")
-		(sheetfile "MotorController.kicad_sch")
+		(sheetfile "motor_driver.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.38 -1.38)
@@ -4313,7 +4313,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/19502c42-dc7f-4c64-a1b1-d2d19dbcc4f9")
 		(sheetname "/")
-		(sheetfile "MotorController.kicad_sch")
+		(sheetfile "motor_driver.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.727064 0.91)
@@ -4454,7 +4454,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/4eed2ef1-9d7f-4f49-8f55-2333b145937f")
 		(sheetname "/")
-		(sheetfile "MotorController.kicad_sch")
+		(sheetfile "motor_driver.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.38 -1.38)
@@ -4689,7 +4689,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/06b209ff-fb08-4bfe-935f-8ca04b51b217")
 		(sheetname "/")
-		(sheetfile "MotorController.kicad_sch")
+		(sheetfile "motor_driver.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.38 -1.38)
@@ -4913,7 +4913,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/a3ced1df-c085-4319-9e77-03067b9f8c1d")
 		(sheetname "/")
-		(sheetfile "MotorController.kicad_sch")
+		(sheetfile "motor_driver.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.727064 -0.91)
@@ -5067,7 +5067,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/e5316d41-1718-4408-ba93-8ce88a8bdd9c")
 		(sheetname "/")
-		(sheetfile "MotorController.kicad_sch")
+		(sheetfile "motor_driver.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.727064 -0.91)
@@ -5210,7 +5210,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/bd980c87-3345-4fdc-9478-b87255b0fe31")
 		(sheetname "/")
-		(sheetfile "MotorController.kicad_sch")
+		(sheetfile "motor_driver.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.727064 0.91)

@@ -4140,7 +4140,7 @@
 			(uuid "d00501fc-b613-4844-86f9-113c60e175ba")
 		)
 		(instances
-			(project "MotorController"
+			(project "motor_driver"
 				(path "/7810c476-6858-4a81-b705-aa14a51e40ea"
 					(reference "BDC2")
 					(unit 1)
@@ -4209,7 +4209,7 @@
 			(uuid "613e5493-9c10-42a9-bce4-4848e4e5e015")
 		)
 		(instances
-			(project "MotorController"
+			(project "motor_driver"
 				(path "/7810c476-6858-4a81-b705-aa14a51e40ea"
 					(reference "C4")
 					(unit 1)
@@ -4282,7 +4282,7 @@
 			(uuid "838b1b0a-f254-4e12-bd20-08a216761455")
 		)
 		(instances
-			(project "MotorController"
+			(project "motor_driver"
 				(path "/7810c476-6858-4a81-b705-aa14a51e40ea"
 					(reference "PWM_In2")
 					(unit 1)
@@ -4360,7 +4360,7 @@
 			(uuid "b13004a2-5dee-46ed-afcd-0e763489f879")
 		)
 		(instances
-			(project "MotorController"
+			(project "motor_driver"
 				(path "/7810c476-6858-4a81-b705-aa14a51e40ea"
 					(reference "DBG2")
 					(unit 1)
@@ -4433,7 +4433,7 @@
 			(uuid "92fdd829-8d22-47b3-97bb-e4577814163e")
 		)
 		(instances
-			(project "MotorController"
+			(project "motor_driver"
 				(path "/7810c476-6858-4a81-b705-aa14a51e40ea"
 					(reference "PWM_In1")
 					(unit 1)
@@ -4502,7 +4502,7 @@
 			(uuid "5d362a78-b696-4c1c-b174-2414b7a2dcb3")
 		)
 		(instances
-			(project "MotorController"
+			(project "motor_driver"
 				(path "/7810c476-6858-4a81-b705-aa14a51e40ea"
 					(reference "R1")
 					(unit 1)
@@ -4571,7 +4571,7 @@
 			(uuid "47514ca3-e38e-43fe-b387-c44c8536cfee")
 		)
 		(instances
-			(project "MotorController"
+			(project "motor_driver"
 				(path "/7810c476-6858-4a81-b705-aa14a51e40ea"
 					(reference "R4")
 					(unit 1)
@@ -4641,7 +4641,7 @@
 			(uuid "0c1b2570-b9b0-42f5-9384-db367f92d9c1")
 		)
 		(instances
-			(project "MotorController"
+			(project "motor_driver"
 				(path "/7810c476-6858-4a81-b705-aa14a51e40ea"
 					(reference "VBAT1")
 					(unit 1)
@@ -4711,7 +4711,7 @@
 			(uuid "ef118df4-b08d-4575-bae5-8ff690071aeb")
 		)
 		(instances
-			(project "MotorController"
+			(project "motor_driver"
 				(path "/7810c476-6858-4a81-b705-aa14a51e40ea"
 					(reference "BDC1")
 					(unit 1)
@@ -4791,7 +4791,7 @@
 			(uuid "8a817c34-aa03-4962-b858-574b2ef47059")
 		)
 		(instances
-			(project "MotorController"
+			(project "motor_driver"
 				(path "/7810c476-6858-4a81-b705-aa14a51e40ea"
 					(reference "FLASH1")
 					(unit 1)
@@ -4903,7 +4903,7 @@
 			(uuid "91ef63cf-7e42-44f2-a5fd-e911bcf030ea")
 		)
 		(instances
-			(project "MotorController"
+			(project "motor_driver"
 				(path "/7810c476-6858-4a81-b705-aa14a51e40ea"
 					(reference "U2")
 					(unit 1)
@@ -4972,7 +4972,7 @@
 			(uuid "af34dec8-ea45-4449-85de-bd7f6d94035f")
 		)
 		(instances
-			(project "MotorController"
+			(project "motor_driver"
 				(path "/7810c476-6858-4a81-b705-aa14a51e40ea"
 					(reference "C5")
 					(unit 1)
@@ -5041,7 +5041,7 @@
 			(uuid "89debe4b-a8ab-48a6-b0bc-6c337af7d5db")
 		)
 		(instances
-			(project "MotorController"
+			(project "motor_driver"
 				(path "/7810c476-6858-4a81-b705-aa14a51e40ea"
 					(reference "R3")
 					(unit 1)
@@ -5110,7 +5110,7 @@
 			(uuid "2dddd5fa-fdd7-423f-9613-4bf9cfd19d06")
 		)
 		(instances
-			(project "MotorController"
+			(project "motor_driver"
 				(path "/7810c476-6858-4a81-b705-aa14a51e40ea"
 					(reference "R2")
 					(unit 1)
@@ -5180,7 +5180,7 @@
 			(uuid "569af3c3-36e7-462e-a1ce-1bae57ab1eb6")
 		)
 		(instances
-			(project "MotorController"
+			(project "motor_driver"
 				(path "/7810c476-6858-4a81-b705-aa14a51e40ea"
 					(reference "C1")
 					(unit 1)
@@ -5258,7 +5258,7 @@
 			(uuid "3f7906b1-4f7b-4b39-811b-626f32d1430b")
 		)
 		(instances
-			(project "MotorController"
+			(project "motor_driver"
 				(path "/7810c476-6858-4a81-b705-aa14a51e40ea"
 					(reference "DBG1")
 					(unit 1)
@@ -5326,7 +5326,7 @@
 			(uuid "5fa31356-f58a-4723-89b4-a20cbeee17fa")
 		)
 		(instances
-			(project "MotorController"
+			(project "motor_driver"
 				(path "/7810c476-6858-4a81-b705-aa14a51e40ea"
 					(reference "C3")
 					(unit 1)
@@ -5431,7 +5431,7 @@
 			(uuid "3f18287f-770d-4dd7-b0cc-c509e2d94d92")
 		)
 		(instances
-			(project "MotorController"
+			(project "motor_driver"
 				(path "/7810c476-6858-4a81-b705-aa14a51e40ea"
 					(reference "U1")
 					(unit 1)
@@ -5556,7 +5556,7 @@
 			(uuid "60a3c070-0672-4ebd-9cf1-7244b171c982")
 		)
 		(instances
-			(project "MotorController"
+			(project "motor_driver"
 				(path "/7810c476-6858-4a81-b705-aa14a51e40ea"
 					(reference "U3")
 					(unit 1)
@@ -5625,7 +5625,7 @@
 			(uuid "864db7e1-f405-4e33-975e-be661c8881b2")
 		)
 		(instances
-			(project "MotorController"
+			(project "motor_driver"
 				(path "/7810c476-6858-4a81-b705-aa14a51e40ea"
 					(reference "C2")
 					(unit 1)
