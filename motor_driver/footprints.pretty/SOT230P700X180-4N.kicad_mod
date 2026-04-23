@@ -1,0 +1,306 @@
+(footprint "SOT230P700X180-4N"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "5V LDO"
+		(at 0 0 90)
+		(layer "F.SilkS")
+		(uuid "c0212103-09a0-4bf7-a613-76926055741b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LDL1117S50R_"
+		(at 6.54 4.335 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "99cfb646-9f81-4d4e-b973-13c0fbfc2656")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "91f05bff-3cb4-4d6d-a198-03e98f6f7338")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b8a18826-2d7b-4c02-b600-d1a89524607c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "PARTREV" "7"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "90a1308b-16ba-4bb1-88a1-7d3e7fc8a826")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MANUFACTURER" "STMicroelectronics"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d4b163e1-debf-4042-b0d8-d918f697e524")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SNAPEDA_PN" "LDL1117S50R"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cf585f98-a017-40df-9944-f245c0c82bac")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MAXIMUM_PACKAGE_HEIGHT" "1.8 mm"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2360e76a-b6f1-4f2b-a561-24085fe152d5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "STANDARD" "IPC 7351B"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5b917f2d-709a-4b83-8734-f07740bced9c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(sheetname "/")
+	(sheetfile "motor_driver.kicad_sch")
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.75 -3.25)
+		(end -1.75 -3.085)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4cbd324d-8f02-4c05-8397-7e57113a0881")
+	)
+	(fp_line
+		(start -1.75 3.25)
+		(end -1.75 3.085)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9578b749-3445-4a46-9d58-768095e1a40d")
+	)
+	(fp_line
+		(start -1.75 3.25)
+		(end 1.75 3.25)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f2eed52e-9ba1-45dc-b6ef-3bd5c38de847")
+	)
+	(fp_line
+		(start 1.75 -3.25)
+		(end -1.75 -3.25)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "75cf4471-6743-486c-b422-ceecc322a311")
+	)
+	(fp_line
+		(start 1.75 -1.935)
+		(end 1.75 -3.25)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "939d1111-cc14-4266-9719-b6cb50f79486")
+	)
+	(fp_line
+		(start 1.75 3.25)
+		(end 1.75 1.935)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "48550e46-8ad3-42cb-ac46-ae2ddd58cc88")
+	)
+	(fp_line
+		(start -4.255 -3.5)
+		(end -4.255 3.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "cc2f9ff0-4c71-4a59-b3b3-25eb74499a98")
+	)
+	(fp_line
+		(start -4.255 3.5)
+		(end 4.255 3.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f5c44048-d978-4034-8ea3-723bb727bc87")
+	)
+	(fp_line
+		(start 4.255 -3.5)
+		(end -4.255 -3.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1b5812c3-b692-43e5-8b75-15518ac7c267")
+	)
+	(fp_line
+		(start 4.255 3.5)
+		(end 4.255 -3.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "44e8adc5-370c-48e4-8970-431aec035060")
+	)
+	(fp_line
+		(start -1.75 -3.25)
+		(end -1.75 3.25)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "da133ec7-b4a9-43ce-b26c-ff31eef18859")
+	)
+	(fp_line
+		(start -1.75 3.25)
+		(end 1.75 3.25)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0292609e-d8c0-4ac7-883d-ec5d0a4ab2cc")
+	)
+	(fp_line
+		(start 1.75 -3.25)
+		(end -1.75 -3.25)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "129ba7e6-e95b-4a46-9060-2e8a6613463a")
+	)
+	(fp_line
+		(start 1.75 3.25)
+		(end 1.75 -3.25)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1b5e2385-5fe7-4b74-8616-6d24cd8827ba")
+	)
+	(pad "1" smd roundrect
+		(at -3.015 -2.3)
+		(size 1.98 0.93)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.125)
+		(solder_mask_margin 0.102)
+		(uuid "05a10a2f-2cfd-4eb6-b799-651890107524")
+	)
+	(pad "2" smd roundrect
+		(at -3.015 0)
+		(size 1.98 0.93)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.125)
+		(solder_mask_margin 0.102)
+		(uuid "22d39c6b-aa93-4cd3-8ec4-d2c96a6e1f74")
+	)
+	(pad "3" smd roundrect
+		(at -3.015 2.3)
+		(size 1.98 0.93)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.125)
+		(solder_mask_margin 0.102)
+		(uuid "dadcbe48-7db2-47de-abba-ca8dce24b2ad")
+	)
+	(pad "4" smd roundrect
+		(at 3.015 0)
+		(size 1.98 3.23)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.125)
+		(solder_mask_margin 0.102)
+		(uuid "032878f7-19a9-4029-a7df-621fa961212f")
+	)
+	(embedded_fonts no)
+	(model "/home/nate/Downloads/LDL1117S50R/LDL1117S50R_.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)
